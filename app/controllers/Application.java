@@ -13,4 +13,7 @@ public class Application extends Controller {
         render();
     }
 
+    public static void storeEntry(String content) {
+        render(content);
+    }
 }
